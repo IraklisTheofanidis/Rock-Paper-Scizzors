@@ -1,5 +1,5 @@
-# Rock-Paper-Scizzors
-Rock-Paper-Scizzors
+# Rock-Paper-Scissors
+Rock-Paper-Scissors
 
 Rock-Paper-Scissors (Oding Project)
 
