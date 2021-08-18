@@ -1,0 +1,139 @@
+
+
+body{
+   
+    margin:0px; padding:0;
+    font-family: 'PT Serif', serif;
+    background-image: url("../images/paper2background.jpg");
+    background-size: cover;
+}
+
+#content{
+    opacity:1;
+    z-index: 1;
+    color:black;
+}
+header{
+   
+    margin-top:0px;
+    text-align: center;
+    width:100%;
+
+}
+
+header h1{font-size:50px}
+
+.texts{
+    font-size:20px;
+}
+
+#winner{
+    text-align: center;
+}
+
+#opponents{
+    text-align: center;
+    margin-top:10px;
+}
+
+#scores{
+    margin-top:10px;
+    margin-left:30%;
+    margin-right:30%;
+    
+    display:flex; 
+    justify-content: space-around;
+    text-align: center;
+    
+    border-radius: 25px;
+    border: 2px solid black;
+   
+}
+
+#images{
+    
+    margin-left:auto;
+    margin-right:auto;
+    left:0;right:0;
+    display:flex; 
+    justify-content: center;
+    gap:10px;
+    width:80%;
+    margin-top:10px;
+}
+
+#images .selections{
+    border-radius: 25px;
+    border: 2px solid black;
+    padding:10px;
+}
+
+
+#images .selections input[type='image']{width:100px;height:100px;  border-radius: 50%;
+    border: 2px solid black;
+    
+    
+}
+
+#images .selections input[type='image']:hover{
+    transform: scale(1.1);
+    
+}
+
+
+#images  p{
+    text-align: center;
+}
+
+#images img{
+    width:100px;height:100px;
+}
+
+#images .selections img{
+    border-radius: 50%;
+    border: 2px solid black;
+    
+}
+
+#popup
+{
+    top: 0; bottom:0; margin-top:auto;margin-bottom:auto;
+    left: 0; right:0; margin-left:auto;margin-right:auto;
+
+    border-radius: 25px;
+    border: 2px solid white;
+    padding:30px;
+    text-align: center;
+    color:blanchedalmond;
+    opacity: 0;
+    background-color: black;
+    position: fixed;
+    
+    width: 400px;
+    height: 300px;
+    
+    z-index: -1;
+}
+
+.popup{
+    margin-bottom: 30px;
+    font-size:30px;
+    
+}
+
+#popup div{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+}
+#popup div input{
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
