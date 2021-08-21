@@ -8,10 +8,45 @@ body{
     background-size: cover;
 }
 
-#content{
+#startGame{
+    position:fixed;
     opacity:1;
-    z-index: 1;
+    z-index:500;
+    left:0;right:0;margin-left:auto;margin-right:auto;
+    top:0;bottom:0;margin-bottom:auto;margin-top:auto;
+    width:200px;height:200px;
+    
+}
+
+#startGame button{
+    
+    position:relative;top:50%;
+    left:50%;transform:translate(-50%,-50%); 
+   
+    border: 1px solid #3498db;
+    background:none;
+    padding:10px 20px;
+    font-size:20px;
+    font-family:"montserrat";
+    cursor:ponter;
+    color:#3498db;
+    box-shadow: 0px 8px 15px rgba(129, 25, 25, 0.1);
+    transition: all 0.3s ease 0s;
+    
+}
+
+#startGame button:hover{
+    color:#fff;
+    box-shadow: 0px 15px 20px #3498db;
+    transform:translate(-51%,-51%); 
+    
+}
+
+#content{
+    opacity:0;
+    z-index: -1;
     color:black;
+    transition: 0.8s;
 }
 header{
    
@@ -99,7 +134,7 @@ header h1{font-size:50px}
 {
     top: 0; bottom:0; margin-top:auto;margin-bottom:auto;
     left: 0; right:0; margin-left:auto;margin-right:auto;
-
+    transition: 0.8s;
     border-radius: 25px;
     border: 2px solid white;
     padding:30px;
