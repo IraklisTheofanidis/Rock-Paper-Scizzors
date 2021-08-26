@@ -28,7 +28,7 @@ body{
     padding:10px 20px;
     font-size:20px;
     font-family:"montserrat";
-    cursor:ponter;
+    cursor:pointer;
     color:#3498db;
     box-shadow: 0px 8px 15px rgba(129, 25, 25, 0.1);
     transition: all 0.3s ease 0s;
@@ -121,13 +121,13 @@ header h1{font-size:50px}
 }
 
 #images img{
-    width:100px;height:100px;
+    
 }
 
 #images .selections img{
     border-radius: 50%;
     border: 2px solid black;
-    
+    width:100px;height:100px;
 }
 
 #popup
@@ -166,8 +166,41 @@ header h1{font-size:50px}
     border: 2px solid white;
 }
 
+@media (max-width: 890px){
+    #images .selections img{
+        width:70px;height:70px;
+    }
 
+    #images .selections input[type='image']{
+        width:70px;height:70px;
+    }
+}
 
+@media (max-width: 680px){
+    #images .selections img{
+        width:50px;height:50px;
+    }
+
+    #images .selections input[type='image']{
+        width:50px;height:50px;
+    }
+}
+
+@media (max-width: 680px){
+    #images{width:100%; 
+    }
+    #scores{width:60%;
+    margin-left:auto;margin-right:auto;}
+}
+
+@media (max-width: 450px){
+    header h1{font-size:40px}
+   .texts{ font-size:15px;}
+   #images .selections{display: flex;
+    flex-direction: column;align-items: center;gap:10px;
+}
+
+}
 
 
 
